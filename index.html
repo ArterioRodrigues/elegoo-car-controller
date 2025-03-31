@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Controller</title>
+</head>
+<body>
+    <div class="justify-center width-auto">
+        <h1>Live Camera Feed</h1>
+        <img src="http://192.168.4.1/Test" alt="Camera Stream" width="640" height="480">
+    </div>
+
+    <div class="flex flex-row justify-even">
+        <!-- WASD Key Layout -->
+        <div class="flex flex-col justify-center">
+            <button id="wKey" class="key-button">W</button>
+            <div class="flex flex-row gap-2">
+                <button id="aKey" class="key-button">A</button>
+                <button id="sKey" class="key-button">S</button>
+                <button id="dKey" class="key-button">D</button>
+            </div>
+        </div>
+    
+        <!-- IJKL Key Layout -->
+        <div class="flex flex-col justify-center">
+            <button id="iKey" class="key-button">I</button>
+            <div class="flex flex-row gap-2">
+                <button id="jKey" class="key-button">J</button>
+                <button id="kKey" class="key-button">K</button>
+                <button id="lKey" class="key-button">L</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>

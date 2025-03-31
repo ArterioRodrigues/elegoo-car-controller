@@ -1,0 +1,46 @@
+.key-button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: white;
+    transition: background-color 0.2s ease;
+}
+.key-active {
+    background-color: greenyellow;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+    align-items: center; 
+}
+
+.justify-even {
+    justify-content: space-evenly;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.gap-4 {
+    padding: 4px;
+}
+
+.width-auto {
+    padding: auto;
+}
